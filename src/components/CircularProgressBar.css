@@ -1,0 +1,19 @@
+.circular-progress-bar {
+    transform: rotate(-90deg);
+  }
+  
+  .circle-bg {
+    stroke: #d6d6d6;
+  }
+  
+  .circle {
+    stroke: #3e98c7;
+    transition: stroke-dashoffset 0.35s;
+    transform: rotate(90deg);
+    transform-origin: center;
+  }
+  
+  .circle-text {
+    font-size: 1em;
+    fill: #000;
+  }
